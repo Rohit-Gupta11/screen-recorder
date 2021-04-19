@@ -18,7 +18,7 @@ startBtn.onclick = (e) => {
 
 stopBtn.onclick = (e) => {
     mediaRecorder.stop();
-    startBtn.classList.remove('is-warning');
+    startBtn.classList.remove('is-danger');
     startBtn.innerText = 'Start';
 }
 
